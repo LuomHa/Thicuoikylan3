@@ -32,7 +32,7 @@
 				$alert = "User and Pass không nhập rỗng";
 				return $alert;
 			}else{
-				$query = "SELECT * FROM tbl_admin WHERE adminPass = '$adminUser' AND adminPass = '$adminPass' LIMIT 1 ";
+				$query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$adminPass' LIMIT 1 ";
 				$result = $this->db->select($query);
 
 				if($result != false){
