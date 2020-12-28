@@ -4,7 +4,7 @@
 <?php include '../classes/brand.php';  ?>
 <?php
     // gọi class category
-    $brand = //new brand(); //
+    $brand = new brand();
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         // LẤY DỮ LIỆU TỪ PHƯƠNG THỨC Ở FORM POST
         $brandName = $_POST['brandName'];
