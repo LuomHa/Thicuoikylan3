@@ -56,7 +56,7 @@
 				<tr class="odd gradeX">
 					<td><?php echo $i ?></td>
 					<td><?php echo $result['product_code'] ?></td>
-					<td><?php echo $result['productId'] ?></td>
+					<td><?php echo $result['productName'] ?></td>
 					<td><a href="productmorequantity.php?productid=<?php echo $result['productId'] ?>">Nhập hàng</a></td>
 					<td>
 						<?php echo $result['productQuantity'] ?>
