@@ -124,7 +124,7 @@
                         <label>Description</label>
                     </td>
                     <td>
-                        <textarea name="product_desc" class="tinymce"><?php echo $result_product['price'] ?></textarea>
+                        <textarea name="product_desc" class="tinymce"><?php echo $result_product['product_desc'] ?></textarea>
                     </td>
                 </tr>
                 <tr>
