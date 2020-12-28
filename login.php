@@ -30,7 +30,7 @@
         	<p>Mời nhập thông tin</p>
         	<?php 
     		if (isset($login_Customer)) {
-    			echo $login_Customer;
+    			echo $insert_Customer;
     		}
     		 ?>
         	<form action="" method="POST">
