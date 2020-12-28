@@ -80,7 +80,7 @@
                             <option>Chọn thương hiệu</option>
                             <?php 
                             $brand = new brand();
-                            $brandlist = $brand->show_category();
+                            $brandlist = $brand->show_brand();
                             if($brandlist){
                                 while ($result = $brandlist->fetch_assoc()){
                             
